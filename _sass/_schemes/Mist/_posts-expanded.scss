@@ -25,7 +25,7 @@
     @include mobile() { font-size: $font-size-headings-smaller; }
     @include desktop-large() { font-size: $font-size-headings-large; }
   }
-  .post-title:hover:before { background: $black-deep; }
+  .post-title:hover:before { background: $green-deep; }
 
   .post-body img { margin: 0; }
 
@@ -36,7 +36,7 @@
       background: $whitesmoke;
       border-bottom: none;
     }
-    a:hover { background: $grey-light; }
+    a:hover { background: $whitesmoke; }
   }
   .post-nav { margin-top: 40px; }
 }
@@ -59,6 +59,6 @@
     @include desktop-large() { font-size: $font-size-large; }
 
 
-    &:hover { border-bottom-color: $black-deep; }
+    &:hover { border-bottom-color: $green-deep; }
   }
 }
