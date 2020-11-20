@@ -373,8 +373,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname: bluewood-truth
+  enable: true
+  shortname: bluewood-truth-github-io
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true

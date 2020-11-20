@@ -558,7 +558,7 @@ pre .k, pre .kd, pre .kn, pre .kp, pre .kr, pre .kt, pre .javascript .function {
 .links-of-author { margin-top: 20px; }
 
 .links-of-author a { display: inline-block; vertical-align: middle; margin-right: 10px; margin-bottom: 10px; border-bottom-color: #555; font-size: 13px; }
-.links-of-author a:before { display: inline-block; vertical-align: middle; margin-right: 3px; content: " "; width: 4px; height: 4px; border-radius: 50%; background: cyan; }
+.links-of-author a:before { display: inline-block; vertical-align: middle; margin-right: 3px; content: " "; width: 4px; height: 4px; border-radius: 50%; background: #823000; }
 
 .links-of-blogroll { font-size: 13px; }
 
@@ -861,12 +861,12 @@ hr { margin: 20px 0; height: 2px; }
 
 .page-post-detail .post-title, .page-post-detail .post-meta { text-align: center; }
 .page-post-detail .post-title:before { display: none; }
-.page-post-detail .post-meta { margin-bottom: 60px; }
+.page-post-detail .post-meta { margin-bottom: 40px; }
 
 .pagination { margin: 120px 0 0; text-align: left; }
 @media (max-width: 767px) { .pagination { margin: 80px 10px 0; text-align: center; } }
 
 .footer { margin-top: 80px; padding: 10px 0; background: #f5f5f5; color: #666; }
 
-.footer-inner { margin: 0 auto; text-align: left; }
+.footer-inner { margin: 0 auto; }
 @media (max-width: 767px) { .footer-inner { width: auto; text-align: center; } }
