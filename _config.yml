@@ -7,8 +7,8 @@
 title: BLUEWOOD
 subtitle: Engineering Blog
 description: >
-  개발하면서 새로이 알게 된 지식이나, <br>
-  까먹기 쉬운 소소한 내용들을 정리하고 있습니다.
+#  개발하면서 새로이 알게 된 지식이나, <br>
+#  까먹기 쉬운 소소한 내용들을 정리하고 있습니다.
 author: BLUEWOOD
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
@@ -120,7 +120,7 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
+  categories: /categories/
   #about: /about/
   #archives: /archives/
   tags: /tags/

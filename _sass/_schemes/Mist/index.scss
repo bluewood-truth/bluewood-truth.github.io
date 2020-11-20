@@ -48,12 +48,15 @@
 // Page - Post details
 // --------------------------------------------------
 .page-post-detail {
+  .post-header { margin-bottom:20px; }
+  .post-meta { margin:0; }
+
   .post-title,
-  .post-meta { text-align: center; }
+  .post-meta { text-align: left; }
 
   .post-title:before { display: none; }
-
-  .post-meta { margin-bottom: 40px; }
+  
+  .post-description { display:none; }
 }
 
 

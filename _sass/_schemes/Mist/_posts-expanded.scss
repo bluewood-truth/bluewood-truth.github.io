@@ -15,14 +15,15 @@
 
   .post-meta {
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
-
+  .post-title { margin:0; }
+  
   .post-title {
     position: relative;
-    font-size: $font-size-headings-base;
-    font-weight: 400;
-    @include mobile() { font-size: $font-size-headings-smaller; }
+    font-size: 36px; // $font-size-headings-base;
+    font-weight: 800;
+    @include mobile() { font-size: 24px; } // $font-size-headings-smaller; 
     @include desktop-large() { font-size: $font-size-headings-large; }
   }
   .post-title:hover:before { background: $green-deep; }

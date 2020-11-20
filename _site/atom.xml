@@ -1,2 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-20T21:50:19+09:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">BLUEWOOD</title><subtitle>개발하면서 새로이 알게 된 지식이나, &lt;br&gt; 까먹기 쉬운 소소한 내용들을 정리하고 있습니다.
-</subtitle><author><name>BLUEWOOD</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-20T23:30:06+09:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">BLUEWOOD</title><subtitle>개발하면서 새로이 알게 된 지식이나, &lt;br&gt; 까먹기 쉬운 소소한 내용들을 정리하고 있습니다.
+</subtitle><author><name>BLUEWOOD</name></author><entry><title type="html">Hello, world!</title><link href="http://localhost:4000/2020/11/20/hello-world/" rel="alternate" type="text/html" title="Hello, world!" /><published>2020-11-20T00:00:00+09:00</published><updated>2020-11-20T00:00:00+09:00</updated><id>http://localhost:4000/2020/11/20/hello-world</id><content type="html" xml:base="http://localhost:4000/2020/11/20/hello-world/">&lt;p&gt;테스트용 포스트입니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;큰-제목&quot;&gt;큰 제목&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;큰 제목에 대한 설명&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;작은-제목&quot;&gt;작은 제목&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;작은 제목에 대한 설명&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;기타 설명&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>BLUEWOOD</name></author><summary type="html">테스트용 포스트입니다.</summary></entry></feed>

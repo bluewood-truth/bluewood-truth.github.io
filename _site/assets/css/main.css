@@ -126,10 +126,10 @@ td, th { padding: 0; }
 
 ::selection { background: #262a30; color: white; }
 
-body { position: relative; font-family: "Lato", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 14px; line-height: 2; color: #555; background: white; }
+body { position: relative; font-family: "Lato", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 16px; line-height: 2; color: #555; background: white; }
 @media (max-width: 767px) { body { padding-right: 0 !important; } }
 @media (min-width: 768px) and (max-width: 991px) { body { padding-right: 0 !important; } }
-@media (min-width: 1600px) { body { font-size: 16px; } }
+@media (min-width: 1600px) { body { font-size: 18px; } }
 
 h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; font-weight: bold; line-height: 1.5; font-family: "Lato", "PingFang SC", "Microsoft YaHei", sans-serif; }
 
@@ -412,7 +412,7 @@ pre .k, pre .kd, pre .kn, pre .kp, pre .kr, pre .kt, pre .javascript .function {
 
 .post-body img.emoji { border: 0 !important; display: inline; vertical-align: sub; }
 
-.post-body .image-caption, .post-body .figure .caption { margin: 10px auto 15px; text-align: center; font-size: 14px; color: #999; font-weight: bold; line-height: 1; }
+.post-body .image-caption, .post-body .figure .caption { margin: 10px auto 15px; text-align: center; font-size: 16px; color: #999; font-weight: bold; line-height: 1; }
 
 .post-sticky-flag { display: inline-block; font-size: 16px; -ms-transform: rotate(30deg); -webkit-transform: rotate(30deg); -moz-transform: rotate(30deg); -ms-transform: rotate(30deg); -o-transform: rotate(30deg); transform: rotate(30deg); }
 
@@ -424,6 +424,7 @@ pre .k, pre .kd, pre .kn, pre .kp, pre .kr, pre .kt, pre .javascript .function {
   .post-body .highlight { margin-left: 0px; margin-right: 0px; padding: 0; }
   .post-body .highlight .gutter pre { padding-right: 10px; } }
 @media (min-width: 992px) { .posts-expand .post-body { text-align: justify; } }
+@media (max-width: 767px) { .posts-expand .post-body { text-align: center; } }
 .posts-expand .post-body h2, .posts-expand .post-body h3, .posts-expand .post-body h4, .posts-expand .post-body h5, .posts-expand .post-body h6 { padding-top: 10px; }
 .posts-expand .post-body h2 .header-anchor, .posts-expand .post-body h3 .header-anchor, .posts-expand .post-body h4 .header-anchor, .posts-expand .post-body h5 .header-anchor, .posts-expand .post-body h6 .header-anchor { float: right; margin-left: 10px; color: #ccc; border-bottom-style: none; visibility: hidden; }
 .posts-expand .post-body h2 .header-anchor:hover, .posts-expand .post-body h3 .header-anchor:hover, .posts-expand .post-body h4 .header-anchor:hover, .posts-expand .post-body h5 .header-anchor:hover, .posts-expand .post-body h6 .header-anchor:hover { color: inherit; }
@@ -558,7 +559,7 @@ pre .k, pre .kd, pre .kn, pre .kp, pre .kr, pre .kt, pre .javascript .function {
 .links-of-author { margin-top: 20px; }
 
 .links-of-author a { display: inline-block; vertical-align: middle; margin-right: 10px; margin-bottom: 10px; border-bottom-color: #555; font-size: 13px; }
-.links-of-author a:before { display: inline-block; vertical-align: middle; margin-right: 3px; content: " "; width: 4px; height: 4px; border-radius: 50%; background: #823000; }
+.links-of-author a:before { display: inline-block; vertical-align: middle; margin-right: 3px; content: " "; width: 4px; height: 4px; border-radius: 50%; background: #75ff8a; }
 
 .links-of-blogroll { font-size: 13px; }
 
@@ -782,7 +783,7 @@ a { border-bottom-color: #ccc; }
 
 hr { margin: 20px 0; height: 2px; }
 
-.main-inner { margin-top: 80px; }
+.main-inner { margin-top: 40px; }
 
 .header { background: #f5f5f5; }
 
@@ -831,10 +832,11 @@ hr { margin: 20px 0; height: 2px; }
 .posts-expand .post-eof { display: none; }
 .posts-expand .post { margin-top: 120px; }
 .posts-expand .post:first-child { margin-top: 0; }
-.posts-expand .post-meta { margin-top: 5px; margin-bottom: 20px; }
-.posts-expand .post-title { position: relative; font-size: 26px; font-weight: 400; }
-@media (max-width: 767px) { .posts-expand .post-title { font-size: 20px; } }
-@media (min-width: 1600px) { .posts-expand .post-title { font-size: 26px; } }
+.posts-expand .post-meta { margin-top: 5px; margin-bottom: 5px; }
+.posts-expand .post-title { margin: 0; }
+.posts-expand .post-title { position: relative; font-size: 36px; font-weight: 800; }
+@media (max-width: 767px) { .posts-expand .post-title { font-size: 24px; } }
+@media (min-width: 1600px) { .posts-expand .post-title { font-size: 50px; } }
 .posts-expand .post-title:hover:before { background: #3ac267; }
 .posts-expand .post-body img { margin: 0; }
 .posts-expand .post-tags { text-align: left; }
@@ -843,9 +845,9 @@ hr { margin: 20px 0; height: 2px; }
 .posts-expand .post-nav { margin-top: 40px; }
 
 .post-button { margin-top: 20px; text-align: left; }
-.post-button a { margin: 0 8px 8px 0 !important; padding: 0; font-size: 14px; color: #666; background: none; border: none; border-bottom: 2px solid #666; transition-property: border; }
-@media (max-width: 767px) { .post-button a { font-size: 12px; } }
-@media (min-width: 1600px) { .post-button a { font-size: 16px; } }
+.post-button a { margin: 0 8px 8px 0 !important; padding: 0; font-size: 16px; color: #666; background: none; border: none; border-bottom: 2px solid #666; transition-property: border; }
+@media (max-width: 767px) { .post-button a { font-size: 14px; } }
+@media (min-width: 1600px) { .post-button a { font-size: 18px; } }
 .post-button a:hover { border-bottom-color: #3ac267; }
 
 .links-of-blogroll-inline .links-of-blogroll-item { display: inline-block; }
@@ -859,9 +861,11 @@ hr { margin: 20px 0; height: 2px; }
 
 @media (max-width: 767px) { .container .main-inner { width: auto; } }
 
-.page-post-detail .post-title, .page-post-detail .post-meta { text-align: center; }
+.page-post-detail .post-header { margin-bottom: 20px; }
+.page-post-detail .post-meta { margin: 0; }
+.page-post-detail .post-title, .page-post-detail .post-meta { text-align: left; }
 .page-post-detail .post-title:before { display: none; }
-.page-post-detail .post-meta { margin-bottom: 40px; }
+.page-post-detail .post-description { display: none; }
 
 .pagination { margin: 120px 0 0; text-align: left; }
 @media (max-width: 767px) { .pagination { margin: 80px 10px 0; text-align: center; } }
