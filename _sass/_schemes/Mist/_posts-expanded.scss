@@ -10,7 +10,7 @@
   }
   .post-eof { display: none; }
 
-  .post { margin-top: 120px; }
+  .post { margin-top: 45px; }
   .post:first-child { margin-top: 0; }
 
   .post-meta {
@@ -21,10 +21,10 @@
   
   .post-title {
     position: relative;
-    font-size: 36px; // $font-size-headings-base;
+    font-size: $font-size-headings-large;
     font-weight: 800;
-    @include mobile() { font-size: 24px; } // $font-size-headings-smaller; 
-    @include desktop-large() { font-size: $font-size-headings-large; }
+    @include mobile() { font-size: $font-size-headings-smaller }
+    @include desktop-large() { font-size: $font-size-headings-larger; }
   }
   .post-title:hover:before { background: $green-deep; }
 

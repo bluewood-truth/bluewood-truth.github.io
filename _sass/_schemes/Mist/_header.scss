@@ -34,7 +34,11 @@
     font-size: 22px;
     font-weight: bolder;
 
-    @include mobile() { line-height: 34px; }
+    @include mobile() { 
+		line-height: 24px;
+		text-decoration:underline;
+		text-underline-position: under;
+	}
   }
 }
 

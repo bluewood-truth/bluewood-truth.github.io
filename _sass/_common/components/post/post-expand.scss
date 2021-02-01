@@ -30,7 +30,7 @@
 
 .posts-expand .post-body {
   @include desktop() { text-align: justify; }
-  @include mobile() { text-align:center; }
+  @include mobile() { text-align:justify; }
 
   h2, h3, h4, h5, h6 {
     padding-top: 10px;

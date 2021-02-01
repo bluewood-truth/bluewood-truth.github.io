@@ -1,2 +1,19 @@
 // Custom styles.
 $green-deep   : #3ac267;
+
+body p { line-height: 1.8; }
+
+.posts-expand .post-body{
+	h1, h2, h3, h4, h5, h6 { padding-top: 0; margin-top: 0; }
+}
+
+h1 { font-size: 28px; }
+h2 { font-size: 24px; }
+h3 { font-size: 22px; }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+
+.brand { width:100%; }
+.logo-line-before, .logo-line-after { width:95%; }
+.site-title { width:100%; text-align:center; }
