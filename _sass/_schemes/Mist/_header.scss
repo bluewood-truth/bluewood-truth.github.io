@@ -36,8 +36,6 @@
 
     @include mobile() { 
 		line-height: 24px;
-		text-decoration:underline;
-		text-underline-position: under;
 	}
   }
 }

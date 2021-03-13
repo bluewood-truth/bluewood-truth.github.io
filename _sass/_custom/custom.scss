@@ -1,12 +1,14 @@
 // Custom styles.
 $green-deep   : #3ac267;
 
+// 본문 줄 간격 조정
 body p { line-height: 1.8; }
 
+
+// 본문내 헤더 태그 글자크기 조정
 .posts-expand .post-body{
 	h1, h2, h3, h4, h5, h6 { padding-top: 0; margin-top: 0; }
 }
-
 h1 { font-size: 28px; }
 h2 { font-size: 24px; }
 h3 { font-size: 22px; }
@@ -15,48 +17,68 @@ h5 { font-size: 14px; }
 h6 { font-size: 12px; }
 
 
-.brand { width:100%; }
-.logo-line-before, .logo-line-after { width:95%; }
-.site-title { width:100%; text-align:center; }
+// 로고 수정
+$brand-color: $black-light;
+$brand-bg: $brand-color;
+.brand { 
+	border-top: 3px solid $black-light;
+	border-bottom: 3px solid $black-light;
+	width:100%; 
+	@include the-transition();
+	&:hover {
+		color: $green-deep;
+		border-color: $green-deep;
+	}
+}
+.logo-line-before, .logo-line-after { width:95%; display:none; }
+.site-title { 
+	width:100%; 
+	text-align:center; 
+	line-height: 30px;
+}
+.site-subtitle { color: $black-light; }
 
 
-
-
+// 사이트 header 너비 수정
 .header {
 	background: transparent;
 }
-
 .header-inner {
 	border-bottom: 1px solid #ddd;
 	margin: 0 auto;
 }
-
-
 @media (min-width: 768px) {
 	.container .header-inner {
 		width: auto;
 	}
 }
-
 .site-meta {
 	margin-left: 20px;
 }
 
+
+// 사이트 main 너비 수정
 .main-inner { 
+	padding: 0 25px;
 	width: 960px;
 }
 
+
+// 본문제목, 카테고리 리스트 가운데 정렬
 .page-post-detail {
 	.post-meta, .post-title {
 		text-align: center;
 	}
 }
-
 .category-all-page .category-list-item {
 	text-align: center;
 	font-size: 20px;
 }
 
+
+// 본문내 이미지 가운데 정렬
 .posts-expand .post-body img {
 	margin: 0 auto;
 }
+
+
